@@ -41,8 +41,7 @@ void draw(){
     y=300;
   }
   if (t>60){
-    t = 0;
-    background(255,245,220); 
+    t = 0; 
   } else {
     t = t+1;
   }
